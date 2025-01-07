@@ -1,3 +1,0 @@
-A = [“banana”, “apple”, “lemon”]
-for i in range(len(A)):
-  print(A[i])
