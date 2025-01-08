@@ -1,2 +1,4 @@
 a = ["banana", "apple", "lemon"]
-print(a[0])
+For i in range(len(a)):
+	print(i)
+	print(a[i])
