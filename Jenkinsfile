@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     parameters {
-        string(name: 'MY_PARAM', defaultValue: 'Hello xinh cuộc sống đẹp xinh', description: 'Enter a value for MY_PARAM')
+        string(name: 'MY_PARAM', defaultValue: 'Hello Tuyền', description: 'Enter a value for MY_PARAM')
         string(name: 'BRANCH', defaultValue: 'master', description: 'Enter a value for MY_PARAM')
       
     }
