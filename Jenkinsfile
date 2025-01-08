@@ -39,7 +39,7 @@ pipeline {
                     // Activate the virtual environment and run the tests
                     sh '''
                     source venv/bin/activate
-                    pytest --alluredir=${ALLURE_RESULTS_DIR} test_python.py
+                    pytest --alluredir=${ALLURE_RESULTS_DIR} pytest.py
                     '''
                 }
             }
