@@ -1,4 +1,4 @@
 a = ["banana", "apple", "lemon"]
-For i in range(len(a)):
+for i in range(len(a)):
 	print(i)
 	print(a[i])
