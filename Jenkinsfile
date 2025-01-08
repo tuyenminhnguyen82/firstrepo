@@ -39,7 +39,7 @@ pipeline {
                     // Activate the virtual environment and run the tests
                     sh '''
                     source venv/bin/activate
-                    python3 test_python.py
+                    pytest test_python.py
                     '''
                 }
             }
